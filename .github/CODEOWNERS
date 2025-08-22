@@ -1,0 +1,38 @@
+# CODEOWNERS file for monitoring-tool-856
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-product @Armor-test/squad-performance @Armor-test/grp-search
+
+# Directory ownership
+/spec/ @Armor-test/grp-api @Armor-test/squad-cache
+/utils/ @Armor-test/dept-logging @Armor-test/squad-payments
+/build/ @Armor-test/unit-governance @Armor-test/team-research @Armor-test/grp-ui
+/controllers/ @Armor-test/dept-billing @Armor-test/dept-test
+/public/ @Armor-test/grp-search @Armor-test/dept-data @Armor-test/squad-research
+/api/ @Armor-test/unit-devops @Armor-test/squad-mobile @Armor-test/grp-api
+/pages/ @Armor-test/dept-api @Armor-test/grp-storage
+/app/ @Armor-test/team-research @Armor-test/dept-identity @Armor-test/squad-cache
+/components/ @Armor-test/squad-product @Armor-test/dept-identity
+/extensions/ @Armor-test/squad-cache @Armor-test/squad-performance @Armor-test/squad-ml
+
+# File type ownership
+*.rs @Armor-test/dept-test @Armor-test/dept-reliability @Armor-test/squad-database
+*.toml @Armor-test/dept-notifications @Armor-test/unit-devops @Armor-test/grp-search
+*.properties @Armor-test/unit-cloud @Armor-test/grp-api @Armor-test/team-reporting
+*.sql @Armor-test/dept-automation @Armor-test/team-frontend @Armor-test/squad-cache
+*.java @Armor-test/squad-tooling @Armor-test/team-research
+*.kt @Armor-test/grp-api @Armor-test/grp-ui
+*.js @Armor-test/squad-cache @Armor-test/team-logging
+*.php @Armor-test/grp-search @Armor-test/grp-payments @Armor-test/squad-ml
+*.sh @Armor-test/grp-ui @Armor-test/dept-api
+*.tsx @Armor-test/squad-cache @Armor-test/team-notifications @Armor-test/squad-research
+*.proto @Armor-test/dept-logging @Armor-test/dept-reporting @Armor-test/team-reporting
+*.md @Armor-test/dept-reliability @Armor-test/squad-reporting @Armor-test/squad-ux
+*.yml @Armor-test/dept-reporting @Armor-test/unit-test
+*.scss @Armor-test/squad-cache @Armor-test/dept-ui
+
+# Security and special files
+Dockerfile @Armor-test/devops @Armor-test/infra
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+package.json @Armor-test/dependency-team @Armor-test/security
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
